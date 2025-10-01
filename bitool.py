@@ -13,7 +13,7 @@ st.title("📊 Call Center Dashboard")
 
 # Login form
 
-dfs = pd.read_csv("C:/Users/cmackenzie/Documents/Projects/2025/New BI Tool for Affiliates/csvtest/camp_sum.csv")
+dfs = pd.read_csv("camp_sum.csv")
 username = st.text_input("Username")
 password = st.text_input("Password", type="password")
 login_btn = st.button("Login")
