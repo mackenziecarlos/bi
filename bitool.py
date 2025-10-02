@@ -49,7 +49,7 @@ if login_btn:
         with tab2:
             st.subheader(f"Total Leads for {client}")
             fig3 = px.bar(df_client, x='w_year', y='Contacted Percentaje', title='Dials')
-            st.plotly_chart(fig2, use_container_width=True)
+            st.plotly_chart(fig3, use_container_width=True)
             st.dataframe(df_client.head())
     else:
         st.error("Invalid username or password ❌")
